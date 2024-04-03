@@ -1,3 +1,3 @@
 export const environment = {
-    backendUri: 'http://chat:8080'
+    backendUri: 'http://chat:5000'
 };
