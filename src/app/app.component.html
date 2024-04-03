@@ -1,5 +1,11 @@
-<h1>This is sample application for testing</h1>
+<mat-toolbar color="primary">
+  <span>Chat App</span>
+  <div class="btn-group">
+    <button class="btn" mat-button routerLink="/home" routerLinkActive="active">Home</button>
+    <button class="btn" mat-button routerLink="/chatbook" routerLinkActive="active"> Chat </button>
+  </div>
+</mat-toolbar>
 
-<app-chatbook></app-chatbook>
-
-<router-outlet />
+<div class="container">
+  <router-outlet />
+</div>

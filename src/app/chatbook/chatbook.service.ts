@@ -17,4 +17,8 @@ export class ChatbookService {
     return this.http.get<ChatbookData[]>(this.chatbookUrl);
   }
 
+  public postChatbook(data: any): Observable<ChatbookData> {
+    return this.http.post<ChatbookData>(this.chatbookUrl, data);
+  }
+
 }

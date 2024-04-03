@@ -1,0 +1,17 @@
+.container {
+    padding: 20px;
+    margin: 20px;
+}
+
+.btn-group {
+    padding-left: 2rem;
+}
+
+.btn {
+    margin-right: 1rem;
+}
+
+.active {
+    background-color: white;
+    color: black !important;
+}
